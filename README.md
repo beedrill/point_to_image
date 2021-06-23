@@ -1,0 +1,2 @@
+## usage
+Use the function `points_to_img` to map any 3d points into 2d image. The points is 4xn 2d array where n is the number of points, each points has 4 dimension, [x, y, z, 1], see `lidar_to_img.py` for the example. The view_matrix is the matrix directly from the processed data.
